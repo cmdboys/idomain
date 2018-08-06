@@ -11,7 +11,6 @@ cmd批量域名查询
 	"xin",
 	"net",
 	"top",
-	"在线",
 	"xyz",
 	"wang",
 	"shop",
@@ -27,14 +26,7 @@ cmd批量域名查询
 	"mobi",
 	"info",
 	"org",
-	"com",
-	"cn",
-	"net",
-	"cn",
-	"org",
-	"cn",
 	"gov",
-	"cn",
 	"name",
 	"vip",
 	"pro",
@@ -59,5 +51,7 @@ cmd批量域名查询
 	"公司",
 	"网络",
 	"集团",
+	"在线",
+
 ]
 ```
