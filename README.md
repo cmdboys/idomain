@@ -1,57 +1,63 @@
-# domain
-cmd批量域名查询
+# idomain
 
-# api http://panda.www.net.cn/cgi-bin/check.cgi?area_domain=[domain]
+<img src="https://img.shields.io/npm/dt/idomain.svg">  <img src="https://img.shields.io/packagist/l/doctrine/orm.svg">  <img src="https://img.shields.io/github/package-json/v/jon-millent/idomain.svg">  
+cmd批量域名查询  
+<hr>
 
-# domain list
-```js
-[
-	"com",
-	"cn",
-	"xin",
-	"net",
-	"top",
-	"xyz",
-	"wang",
-	"shop",
-	"site",
-	"club",
-	"cc",
-	"fun",
-	"online",
-	"biz",
-	"red",
-	"link",
-	"ltd",
-	"mobi",
-	"info",
-	"org",
-	"gov",
-	"name",
-	"vip",
-	"pro",
-	"work",
-	"tv",
-	"co",
-	"kim",
-	"group",
-	"tech",
-	"store",
-	"ren",
-	"ink",
-	"pub",
-	"live",
-	"wiki",
-	"design",
-	"中文网",
-	"我爱你",
-	"中国",
-	"网址",
-	"网店",
-	"公司",
-	"网络",
-	"集团",
-	"在线",
 
-]
+![20180807_101314.gif](https://i.loli.net/2018/08/07/5b690176d1d59.gif)
+
+## 安装
+`npm i idomain -g`
+
+
+## 使用
+```cmd
+ << idomain
+ << somedomain
+ << somedomain.com
 ```
+
+
+
+## 支持的域名列表
+* com
+* cn
+* xin
+* net
+* top
+* xyz
+* wang
+* shop
+* site
+* club
+* cc
+* fun
+* online
+* biz
+* red
+* link
+* ltd
+* mobi
+* info
+* org
+* gov
+* name
+* vip
+* pro
+* work
+* tv
+* co
+* kim
+* group
+* tech
+* store
+* ren
+* ink
+* pub
+* live
+* wiki
+* desig
+
+## 请我喝杯咖啡，支持更多开源
+![1024.png](https://i.loli.net/2018/07/25/5b57cb91a44a1.png)
