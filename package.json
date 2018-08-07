@@ -1,6 +1,6 @@
 {
   "name": "idomain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "域名查询工具",
   "bin": {
     "idomain": "bin/index.js"
