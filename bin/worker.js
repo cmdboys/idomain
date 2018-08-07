@@ -4,6 +4,15 @@ const Colors = require('colors')
 const url = require("url");
 const parseString = require('xml2js').parseString;
 
+function stripscript(s) {
+  var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“'。，、？%\"\'+]")
+  var rs = "";
+  for (var i = 0; i < s.length; i++) {
+    rs = rs+s.substr(i, 1).replace(pattern, '');
+  }
+  return rs;
+}
+
 async function mainWorker() {
   console.log('|-----------------------------------|'.yellow)
   console.log('| 欢迎来到域名查询小助手[idomain]'.yellow)
@@ -20,7 +29,9 @@ async function mainWorker() {
         return
       }
   
-      let baseName = chunk.replace(/[\n|\t|\b|\s]/img, '')
+      let baseName = chunk.replace(/[\n|\t|\b|\s|\-]/img, '')
+      
+      baseName = stripscript(baseName)
       
       if(baseName.indexOf('.') != -1){
         // 带域名后缀的
