@@ -1,5 +1,6 @@
 # idomain
-cmd批量域名查询
+cmd批量域名查询  
+<img src="https://img.shields.io/npm/dt/idomain.svg">  <img src="https://img.shields.io/packagist/l/doctrine/orm.svg">  <img src="https://img.shields.io/github/package-json/v/jon-millent/idomain.svg">
 
 ![20180807_101314.gif](https://i.loli.net/2018/08/07/5b690176d1d59.gif)
 
@@ -16,7 +17,7 @@ cmd批量域名查询
 
 
 
-# 支持的域名列表
+## 支持的域名列表
 * com
 * cn
 * xin
