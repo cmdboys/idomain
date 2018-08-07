@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "域名查询工具",
   "bin": {
-    "irest": "bin/index.js"
+    "idomain": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

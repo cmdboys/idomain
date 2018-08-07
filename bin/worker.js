@@ -72,28 +72,34 @@ async function search(hostName){
 async function findDomain(fullDomainName, fujia){
   let res = await Chrome.getDomain(fullDomainName)
   let data = {}
-  if(res.code == 200){
+  try{
+    if(res.code == 200){
     
-    let pas = await superParse(res.data)
-  
-    if(pas.property.returncode[0] == '200'){
-      data.code = 200
-      data.data = pas
-  
-      // 请求成功
-      if(pas.property.original[0].indexOf('210') != -1){
-        data.msg = ('[✔] [' + fullDomainName + '] ' + '域名可以使用').green + (fujia || '')
-      }else{
-        data.msg = ('[✘] [' + fullDomainName + '] ' + '域名已被注册').red + (fujia || '')
-      }
+      let pas = await superParse(res.data)
+    
+      if(pas.property.returncode[0] == '200'){
+        data.code = 200
+        data.data = pas
       
+        // 请求成功
+        if(pas.property.original[0].indexOf('210') != -1){
+          data.msg = ('[✔] [' + fullDomainName + '] ' + '域名可以使用').green + (fujia || '')
+        }else{
+          data.msg = ('[✘] [' + fullDomainName + '] ' + '域名已被注册').red + (fujia || '')
+        }
+      
+      }else{
+        data.code = 500
+        data.msg = '请求失败，请在  https://github.com/Jon-Millent/idomain/issues/new   提交bug'.red
+      }
+    
+    
     }else{
       data.code = 500
+      data.data = null
       data.msg = '请求失败，请在  https://github.com/Jon-Millent/idomain/issues/new   提交bug'.red
     }
-    
-    
-  }else{
+  }catch (e) {
     data.code = 500
     data.data = null
     data.msg = '请求失败，请在  https://github.com/Jon-Millent/idomain/issues/new   提交bug'.red
