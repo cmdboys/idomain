@@ -1,57 +1,46 @@
 # domain
 cmd批量域名查询
 
-# api http://panda.www.net.cn/cgi-bin/check.cgi?area_domain=[domain]
+`npm i idomain -g`
 
-# domain list
-```js
-[
-	"com",
-	"cn",
-	"xin",
-	"net",
-	"top",
-	"xyz",
-	"wang",
-	"shop",
-	"site",
-	"club",
-	"cc",
-	"fun",
-	"online",
-	"biz",
-	"red",
-	"link",
-	"ltd",
-	"mobi",
-	"info",
-	"org",
-	"gov",
-	"name",
-	"vip",
-	"pro",
-	"work",
-	"tv",
-	"co",
-	"kim",
-	"group",
-	"tech",
-	"store",
-	"ren",
-	"ink",
-	"pub",
-	"live",
-	"wiki",
-	"design",
-	"中文网",
-	"我爱你",
-	"中国",
-	"网址",
-	"网店",
-	"公司",
-	"网络",
-	"集团",
-	"在线",
+![20180807_101314.gif](https://i.loli.net/2018/08/07/5b690176d1d59.gif)
 
-]
-```
+
+# 支持的域名列表
+* com
+* cn
+* xin
+* net
+* top
+* xyz
+* wang
+* shop
+* site
+* club
+* cc
+* fun
+* online
+* biz
+* red
+* link
+* ltd
+* mobi
+* info
+* org
+* gov
+* name
+* vip
+* pro
+* work
+* tv
+* co
+* kim
+* group
+* tech
+* store
+* ren
+* ink
+* pub
+* live
+* wiki
+* desig
