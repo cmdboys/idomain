@@ -1,4 +1,4 @@
-# domain
+# idomain
 cmd批量域名查询
 
 ![20180807_101314.gif](https://i.loli.net/2018/08/07/5b690176d1d59.gif)
