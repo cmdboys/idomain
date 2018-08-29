@@ -7,11 +7,11 @@ cmd批量域名查询
 
 ![20180807_101314.gif](https://i.loli.net/2018/08/07/5b690176d1d59.gif)
 
-## 安装
+## Install
 `npm i idomain -g`
 
 
-## 使用
+## Use
 ```cmd
  << idomain
  << somedomain
@@ -20,7 +20,7 @@ cmd批量域名查询
 
 
 
-## 支持的域名列表
+## Support
 * com
 * cn
 * xin
